@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
     res.send('Hello World');
 })
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, function(){
     console.log('Server is running on 3000');
 })
